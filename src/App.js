@@ -93,8 +93,7 @@ function App() {
   <div className="container">
     <div className="row">
       <div className="col-md-6 mx-auto text-center">
-        <h2 className="heading-black">What We offer?.</h2>
-      
+      <div className=" heading-black myh1">What We offer?.</div>
       </div>
     </div>
     <div className="row ">
