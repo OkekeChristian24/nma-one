@@ -167,8 +167,8 @@ function App() {
    
       </div>
     </div>
-    <div className="row mt-5 jus">
-    <div className="col-md-4">
+    <div className="row mt-5 jus col-auto">
+    <div className="col-md-4" style={{marginBottom:'1rem'}}>
         <div className="card">
           <a href="/" >
             <img className="card-img-top img-raised object" src={CEO} alt="Blog 1" />
@@ -180,7 +180,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4" style={{marginBottom:'1rem'}}>
         <div className="card">
           <a href="/" >
             <img className="card-img-top img-raised object" src={ASS} alt="Blog 2" />
