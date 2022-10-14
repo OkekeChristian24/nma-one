@@ -8,6 +8,25 @@
 * Copyright 2011-2017 The Bootstrap Authors 
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+
+.justify{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jus{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.object{
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  object-position: center;
+}
+
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
@@ -2933,7 +2952,9 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.25rem 1rem; }
+  padding: 0.25rem 1rem;
+cursor: pointer;
+}
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
@@ -3315,8 +3336,7 @@ input[type="button"].btn-block {
     border-bottom-left-radius: 0.3rem; }
 
 .card-body {
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
+height: 200px;
   padding: 1.25rem; }
 
 .card-title {
