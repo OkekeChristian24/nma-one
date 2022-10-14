@@ -71,8 +71,8 @@ function App() {
 <section className=" py-md-0 bg-hero" ref={About}>
   <div className="container">
     <div className="row vh-md-100">
-      <div className="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
-        <h1 className="heading-black text-capitalize">NMA Ventures Partner Consulting Services.</h1>
+      <div className=" col-12 mx-auto my-auto text-center">
+        <div className="heading-black text-capitalize myh1">NMA Ventures Partner Consulting Services.</div>
         <p className="lead py-3">NVPCS was spurm out of the founder's need to bridge the gap in Venture Consulting between founders of start-ups and Venture Capital and Angel Networks in the Emerging Market region, especially in sub-Saharan African.</p>
         
       </div>
