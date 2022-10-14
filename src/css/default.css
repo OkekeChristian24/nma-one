@@ -713,6 +713,9 @@ pre {
   .myh1{
     font-size: 3rem;
   }
+  .card-body {
+    height: auto;
+  }
   .col-sm {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
