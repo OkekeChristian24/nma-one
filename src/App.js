@@ -4,6 +4,15 @@ import './App.css';
 import './css/default.css'
 import CEO from './img/ceo.jpg';
 import ASS from './img/assit.jpg'
+import financial from './img/financial.jpg'
+import market from './img/market.jpg'
+import provision from './img/provision.jpg'
+import startup from './img/startup.jpg'
+
+
+
+
+
 function App() {
   const ServicesRef = useRef(null);
   const Home= useRef(null)
@@ -93,9 +102,8 @@ function App() {
         <div className="row feature-boxes">
           <div className="col-md-6 box">
             <div className="icon-box box-primary">
-              <div className="icon-box-inner">
-                <span data-feather="edit-3" width={35} height={35} />
-              </div>
+            <img className="icon"  src={provision} alt="Blog 2" />
+            
             </div>
             <h5>Provide Seamless Financial Raising Activities For Start-ups.</h5>
             {/* <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
@@ -103,9 +111,8 @@ function App() {
           </div>
           <div className="col-md-6 box">
             <div className="icon-box box-success">
-              <div className="icon-box-inner">
-                <span data-feather="monitor" width={35} height={35} />
-              </div>
+            <img className="icon"  src={financial} alt="Blog 2" />
+
             </div>
             <h5>Financial Modelling  &amp; Financial Projections For Start-ups</h5>
             {/* <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
@@ -113,9 +120,8 @@ function App() {
           </div>
           <div className="col-md-6 box">
             <div className="icon-box box-danger">
-              <div className="icon-box-inner">
-                <span data-feather="layout" width={35} height={35} />
-              </div>
+            <img className="icon"  src={market} alt="Blog 2" />
+
             </div>
             <h5>Market Analysis &amp; Customer Behaviour</h5>
             {/* <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
@@ -123,9 +129,8 @@ function App() {
           </div>
           <div className="col-md-6 box">
             <div className="icon-box box-info">
-              <div className="icon-box-inner">
-                <span data-feather="globe" width={35} height={35} />
-              </div>
+            <img className="icon"  src={startup} alt="Blog 2" />
+            
             </div>
             <h5>Start-Up Preparation</h5>
             {/* <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
