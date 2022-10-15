@@ -190,7 +190,7 @@ function App() {
             <img className="card-img-top img-raised object" src={ASS} alt="Blog 2" />
           </a>
           <div className="card-body">
-          <div className='text-center h6'>CFO  And Venture Panter</div>
+          <div className='text-center h6'>CFO  And Venture Partner</div>
          <div className='text-center h3'>Chideraa Nwabasili</div>
          <p className='text-center'>BSc. In Economics and Finance & Member of the Association of the Certified Chartered Accountants</p>
             
