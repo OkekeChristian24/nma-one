@@ -15,6 +15,11 @@
   align-items: center;
   flex-direction: column;
 }
+.Logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
 .icon{
   height: 70px;
   width: 70px;
@@ -492,7 +497,8 @@ pre {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+}
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -3035,7 +3041,7 @@ cursor: pointer;
   display: block; }
 
 .navbar {
-  position: relative;
+  position: static;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -3044,7 +3050,8 @@ cursor: pointer;
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 1.5rem 1.25rem; }
+margin-bottom: 2rem;
+ }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -ms-flexbox;
@@ -3078,9 +3085,9 @@ cursor: pointer;
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
-  .navbar-nav .dropdown-menu {
+  /* .navbar-nav .dropdown-menu {
     position: static;
-    float: none; }
+    float: none; } */
 
 .navbar-text {
   display: inline-block;
@@ -3139,7 +3146,8 @@ cursor: pointer;
     .navbar-expand-sm > .container,
     .navbar-expand-sm > .container-fluid {
       -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap; }
+          flex-wrap: nowrap;
+       }
     .navbar-expand-sm .navbar-collapse {
       display: -ms-flexbox !important;
       display: flex !important;
@@ -7567,7 +7575,10 @@ body {
   top: 0;
   z-index: 1020;
   width: 100%;
-  transition: all .3s ease-out; }
+  transition: all .3s ease-out; 
+  /* margin-bottom: 20px; */
+
+}
   .smart-scroll.scrolling {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%); }
@@ -7615,11 +7626,13 @@ body {
 
 .bg-hero {
   background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='#000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='#053529' cx='400' cy='400' r='500'/%3E%3Ccircle fill='#0a634d' cx='400' cy='400' r='400'/%3E%3Ccircle fill='#0e9271' cx='400' cy='400' r='300'/%3E%3Ccircle fill='#13c095' cx='400' cy='400' r='200'/%3E%3Ccircle fill='#1de9b6' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='#000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='#053529' cx='400' cy='400' r='500'/%3E%3Ccircle fill='#0a634d' cx='400' cy='400' r='400'/%3E%3Ccircle fill='#0e9271' cx='400' cy='400' r='300'/%3E%3Ccircle fill='#13c095' cx='400' cy='400' r='200'/%3E%3Ccircle fill='#1de9b6' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E"); */
   /* background by SVGBackgrounds.com */
   background-attachment: fixed;
   background-size: cover;
-  position: relative; }
+  position: relative;
+
+ }
   .bg-hero:before {
     position: absolute;
     z-index: 1;
@@ -7893,10 +7906,15 @@ footer h5 {
 
 @media screen and (max-width: 768px) {
   .switcher-wrap {
-    display: none; } }
+    display: none; }
+    .bg-hero{
+      margin-top: 80px;
+    }
+  }
 
     @media  (min-width: 908px){
       .card-body {
         height: 280px;
       }
+    
     }

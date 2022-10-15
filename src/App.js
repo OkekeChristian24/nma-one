@@ -8,7 +8,7 @@ import financial from './img/financial.jpg'
 import market from './img/market.jpg'
 import provision from './img/provision.jpg'
 import startup from './img/startup.jpg'
-
+import Logo from './img/logo.jpg'
 
 
 
@@ -41,12 +41,12 @@ function App() {
 
   return (
     <div className="container-fluid">
-    <section className="smart-scroll">
-  <div className="container-fluid" ref={Home}>
+    <section className="smart-scroll scrolling up">
+  <div className="container-fluid" ref={Home} >
     <nav className="navbar navbar-expand-md navbar-dark">
-      <a className="navbar-brand heading-black" href='/'>
-        NMA
-      </a>
+      <div className="navbar-brand heading-black a" onClick={gotoHome}>
+      <img className="Logo" src={Logo} alt="Blog 1" />
+      </div>
       <button className="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span data-feather="grid" />
       </button>
@@ -77,7 +77,7 @@ function App() {
     </nav>
   </div>
 </section>
-<section className=" py-md-0 bg-hero" ref={About}>
+<section className=" py-md-0 bg-hero" ref={About} >
   <div className="container">
     <div className="row vh-md-100">
       <div className=" col-12 mx-auto my-auto text-center">
