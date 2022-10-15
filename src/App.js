@@ -145,7 +145,7 @@ function App() {
   <div className="container">
     <div className="row">
       <div className="col-md-6 mx-auto text-center">
-        <h2>Our Goals  &amp; Objectives</h2>
+        <div className="myh1">Our Goals  &amp; Objectives</div>
        
       </div>
     </div>
@@ -167,7 +167,7 @@ function App() {
 <div className="container">
     <div className="row ">
       <div className="col-md-6 mx-auto text-center">
-        <h2 className="heading-black">NMA Members</h2>
+        <div className="heading-black myh1">NMA Members</div>
    
       </div>
     </div>
