@@ -9,7 +9,7 @@ import market from './img/market.jpg'
 import provision from './img/provision.jpg'
 import startup from './img/startup.jpg'
 import Logo from './img/logo.jpg'
-
+import Coc from './img/coc.jpg'
 
 
 
@@ -81,8 +81,8 @@ function App() {
   <div className="container">
     <div className="row vh-md-100">
       <div className=" col-12 mx-auto my-auto text-center">
-        <div className="heading-black text-capitalize myh1">NMA Ventures Partner Consulting Services.</div>
-        <p className="lead py-3">NVPCS was spurm out of the founder's need to bridge the gap in Venture Consulting between founders of start-ups and Venture Capital and Angel Networks in the Emerging Market region, especially in sub-Saharan African.</p>
+        <div className="heading-black text-capitalize myh1">NMA Ventures Limited.</div>
+        <p className="lead py-3">NMA was spurm out of the founder's need to bridge the gap in Venture Consulting between founders of start-ups and Venture Capital and Angel Networks in the Emerging Market region, especially in sub-Saharan African.</p>
         
       </div>
     </div>
@@ -132,6 +132,15 @@ function App() {
             
             </div>
             <h5>Start-Up Preparation</h5>
+            {/* <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
+              nisi commodo, tempus odio a, vestibulum nibh.</p> */}
+          </div>
+          <div className="col-md-12 box">
+            <div className="icon-box box-info">
+            <img className="icon"  src={Coc} alt="Blog 2" />
+            
+            </div>
+            <h5>Concierge Services</h5>
             {/* <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
               nisi commodo, tempus odio a, vestibulum nibh.</p> */}
           </div>
